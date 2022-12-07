@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,500;0,700;0,900;1,300&family=Inter:wght@600&family=Lato:wght@100;700&family=Poppins:wght@200;300;400;500;700;800;900&family=Roboto:ital,wght@0,100;0,900;1,400;1,700&family=VT323&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #201D47;
+    padding-right: 350px;
+    padding-left: 40px;
+    border-bottom: 2px solid #7843E6;
+    ;
+}
+
+.img_logo_header {
+    width: 10vw;
+    height: 4vh
+}
+
+.navigation_header {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    gap: 150px;
+    margin-bottom: 20px;
+}
+
+.navigation_header a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 7px;
+}
+
+.navigation_header a:nth-child(1) {
+    width: 30px;
+    height: 35px;
+}
+
+.navigation_header a:nth-child(2) {
+    width: 80px;
+    height: 35px;
+}
+
+.navigation_header a:nth-child(3) {
+    width: 30px;
+    height: 35px;
+}
+
+.navigation_header a:nth-child(4) {
+    width: 90px;
+    height: 35px;
+
+}
+
+.main {
+    display: flex;
+
+}
+
+.side_bar {
+    width: 25em;
+    background: radial-gradient(98.58% 98.58% at 49.85% 1.42%, #2E3677 0%, rgba(46, 54, 119, 0.7) 100%);
+}
+
+.navigation_side {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0px;
+    gap: 25px;
+}
+
+.navigation_side a {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 225px;
+    height: 62px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-top: 10px;
+    padding-left: 35px;
+    margin-left: 35px;
+    padding-right: 35px;
+    transition: 0.8s;
+    overflow: hidden;
+    border-radius: 7px;
+
+}
+
+.games {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(141.37deg, #201D47 0%, rgba(32, 29, 71, 0.83) 27.23%, rgba(45, 49, 85, 0.88) 47.91%, rgba(89, 92, 109, 0.7) 100%);
+    width: 100vw;
+
+}
+
+.navigation_footer {
+    background: #201D47;
+    border-top: 2px solid #7843E6;
+    width: 99.20vw;
+    height: 70px;
+}
+
+a:hover {
+    background-color: rgb(113, 56, 247);
+}
+
+.conteiner_banner {
+    display: flex;
+    justify-content: center;
+    width: 950px;
+    height: 348px;
+    background-color: aliceblue;
+}
+
+#one {
+    width: 292px;
+    height: 233px;
+    background-color: aliceblue;
+
+}
+
+#two {
+    width: 292px;
+    height: 233px;
+    background-color: aliceblue;
+
+}
+
+#tree {
+    width: 292px;
+    height: 233px;
+    background-color: aliceblue;
+
+}
+
+#for {
+    width: 292px;
+    height: 233px;
+    background-color: aliceblue;
+
+}
+
+#five {
+    width: 292px;
+    height: 233px;
+    background-color: aliceblue;
+
+}
+
+#six {
+    width: 292px;
+    height: 233px;
+    background-color: aliceblue;
+
+}
+
+.line_one {
+    display: flex;
+    gap: 35px;
+    box-sizing: border-box;
+}
+
+.line_two {
+    display: flex;
+    margin-top: 50px;
+    gap: 35px;
+    box-sizing: border-box;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+
+.btn {
+    width: 235px;
+    height: 49px;
+    border: none;
+    background: #2976E9;
+    backdrop-filter: blur(500px);
+    border-radius: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background: #4c88e2;
+}   
+
+.conteiner_btn{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
