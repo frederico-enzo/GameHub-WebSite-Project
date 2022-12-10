@@ -1,0 +1,54 @@
+body{
+    background-color: #141314;
+}
+
+.conteiner_jogo {
+    background: #7843E6;
+    border-radius: 25px;
+}
+.conteiner_jogo {
+    width: 292px;
+    height: 233px;
+}
+.thanbinel  {
+    width: 292px;
+    height: 172px;
+    border-radius: 25px 25px 0px 0px;
+}
+.conteiner_botton {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    padding-left: 15px;
+    gap: 5px;
+}
+.title {
+    margin: 0;
+    padding: 0;
+    width: 85px;
+    height: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+.genro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+  
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+}
+.star {
+    width: 20px;
+    height: 20px;
+    margin-right: 25px;
+    margin-top: 15px;
+}

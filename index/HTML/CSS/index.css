@@ -133,69 +133,32 @@
 a:hover {
     background-color: rgb(113, 56, 247);
 }
-
-.conteiner_banner {
+#conteiner_banner{
     display: flex;
     justify-content: center;
-    width: 950px;
-    height: 348px;
-    background-color: aliceblue;
+    align-items: center;
 }
 
-#one {
-    width: 292px;
-    height: 233px;
-    background-color: aliceblue;
 
-}
-
-#two {
-    width: 292px;
-    height: 233px;
-    background-color: aliceblue;
-
-}
-
-#tree {
-    width: 292px;
-    height: 233px;
-    background-color: aliceblue;
-
-}
-
-#for {
-    width: 292px;
-    height: 233px;
-    background-color: aliceblue;
-
-}
-
-#five {
-    width: 292px;
-    height: 233px;
-    background-color: aliceblue;
-
-}
-
-#six {
-    width: 292px;
-    height: 233px;
-    background-color: aliceblue;
-
-}
-
-.line_one {
+.banner{
     display: flex;
+    justify-content: center;
+    width: 800px;
+    height: 248px;
+    border-radius: 25px;
+}
+
+
+#line_one {
+    box-sizing: border-box;
+    width: 1000px;
+
+    display: flex;
+    flex-wrap: wrap ;
     gap: 35px;
     box-sizing: border-box;
 }
 
-.line_two {
-    display: flex;
-    margin-top: 50px;
-    gap: 35px;
-    box-sizing: border-box;
-}
 
 figure {
     display: flex;
@@ -233,3 +196,61 @@ figure {
     display: flex;
     justify-content: center;
 }
+#tableGames{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+
+.conteiner_jogo {
+    background: #7843E6;
+    border-radius: 25px;
+}
+.conteiner_jogo {
+    width: 292px;
+    height: 233px;
+}
+.thanbinel  {
+    width: 292px;
+    height: 172px;
+    border-radius: 25px 25px 0px 0px;
+}
+.conteiner_botton {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    padding-left: 15px;
+    gap: 5px;
+}
+.title {
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+.genro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+    font-size: 12px;
+    height: 25px;
+    width: 70px;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+}
+.star {
+    width: 20px;
+    height: 20px;
+    margin-right: 25px;
+    margin-top: 15px;
+}
+
