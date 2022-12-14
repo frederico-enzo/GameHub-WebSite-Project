@@ -113,6 +113,20 @@
 
 }
 
+.plataforma{
+    cursor: pointer;
+    transition: 1s;
+}
+.plataforma:hover{
+   background-color: #384466;
+   color: black;
+}
+
+.filtro{
+    cursor: pointer;
+}
+
+
 .games {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -130,7 +144,7 @@
     height: 70px;
 }
 
-a:hover {
+.navigation_side a:hover {
     background-color: rgb(113, 56, 247);
 }
 #conteiner_banner{
@@ -187,7 +201,7 @@ figure {
 
 .btn:hover{
     cursor: pointer;
-    background: #4c88e2;
+    background: #242A3A;
 }   
 
 .conteiner_btn{
@@ -235,15 +249,39 @@ figure {
     color: #FFFFFF;
     margin-bottom: 5px;
 }
+.ar{
+    display: flex;
+    gap: 5px;
+
+}
 .genro {
+    font-family: 'Poppins';
+
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: azure;
     font-size: 12px;
     height: 25px;
-    width: 70px;
+    width: 90px;
     margin: 0;
+    padding: 0;
+    border-radius: 5px;
+      
+
+}
+
+.platform{
+    font-family: 'Poppins';
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+    font-size: 12px;
+    height: 25px;
+    width: 100px;
+    margin: 50;
     padding: 0;
     border-radius: 5px;
 }
@@ -254,3 +292,13 @@ figure {
     margin-top: 15px;
 }
 
+.ar2{
+    text-decoration:  none;
+    color: black;
+    
+}
+
+.ga{
+    display: flex;
+    align-items: center;
+}
