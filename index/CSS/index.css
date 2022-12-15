@@ -166,9 +166,11 @@
 #line_one {
     box-sizing: border-box;
     width: 1000px;
+
     display: flex;
     flex-wrap: wrap ;
     gap: 35px;
+    box-sizing: border-box;
 }
 
 
