@@ -1,9 +1,9 @@
-#Jogos Gratuitos - GameHub
+# Jogos Gratuitos - GameHub
 
 Este projeto consiste em um site que exibe uma lista de jogos gratuitos para jogar. 
 O site utiliza a API "free-to-play-games-database" para obter informações sobre os jogos.
 
-#Funcionalidades
+# Funcionalidades
 
 - Exibe uma lista de jogos gratuitos, ordenados por popularidade.
 - Cada jogo é apresentado com seu título, gênero, plataforma e uma imagem de destaque.
